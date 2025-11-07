@@ -20,7 +20,37 @@ img {
   padding: 70px 0;
 }
 
+.menu-container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.img-logo {
+  font-size: 25px;
+  color: #111111;
+  max-width: 10vh;
+}
+
+.menu-container .navbar ul li {
+  position: relative;
+  float: left;
+}
+
+.menu-container .navbar ul li a {
+  font-size: 18px;
+  padding: 20px;
+  color: #111111;
+  display: block;
+}
+
+#img-carrito {
+  max-width: 8vh;
+}
 .nav ul li {
   position: relative;
   float: left;
@@ -33,37 +63,10 @@ img {
   display: block;
 }
 
-#img-carrito {
-  max-width: 8vh;
-}
-
-.carrito-container {
-  position: relative;
-}
-
-.submenu #carrito {
-  display: none;
-}
-
-.carrito-container:hover #carrito {
-  display: block;
-  position: absolute;
-  right: 0;
-  backdrop-filter: blur(10px);
-  top: 100%;
-  z-index: 1;
-  background-color: #4E4E5076;
-  padding: 20px;
-  min-width: 400px;
-}
-
-table {
-  width: 100%;
-}
-
-th,
-td {
-  color: #ffff;
+.logo {
+  font-size: 25px;
+  color: #111111;
+  max-width: 10vh;
 }
 
 .header-zapatillas {
@@ -71,7 +74,7 @@ td {
   justify-content: space-between;
   align-items: center;
   flex: 1;
-  padding: 0 200px;
+  padding: 0 500px;
 }
 
 .header-img {
@@ -85,7 +88,7 @@ td {
 }
 
 .texto-header h1 {
-  font-size: 90px;
+  font-size: 115px;
   text-transform: uppercase;
   line-height: 1;
   color: #111111;
@@ -93,15 +96,15 @@ td {
 }
 
 .texto-header p {
-  font-size: 20px;
+  font-size: 25px;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
 
 .btn-ver {
   display: inline-block;
-  padding: 20px 45px;
+  padding: 25px 50px;
   background-color: #111111;
   color: #ffff;
-  border-radius: 5px;
+  border-radius: 7px;
 }
